@@ -1,5 +1,8 @@
-let nomeCompleto = ("")
-nomeCompleto = prompt("informe seu nome completo:")
+function fnSaudacao() {
+    let nomeCompleto = ("")
+    nomeCompleto = prompt("informe seu nome completo:")
+    alert("Seja bem vindo(a)    " + nomeCompleto + " ao meu site!")
+}
 
 function fnTrocarDeCorFundo() {
     let cor = prompt("Informe uma cor: \n 1-azul \n 2-Vermelho \n 3-preto \n 4-Verde \n 5-Rosa \n 6-Laranja")
@@ -29,5 +32,15 @@ function fnTrocarDeCorFundo() {
     document.body.style.backgroundColor = corDeFundo
 }
 
-fnTrocarDeCorFundo();
+function fnMostrarHoraAtual() {
+    const agora = new Date();
+    const horas = agora.getHours();
+    const minutos = agora.getMinutes();
+    const segundos = agora.getSeconds();
 
+    alert(`Hora atual: ${horas}:${minutos}:${segundos}`);
+}
+
+function fnTrocarTitulo(){
+    document.getElementById("nome-empresa").innerText=prompt("Digite seu novo titulo")
+}
