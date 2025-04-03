@@ -42,5 +42,29 @@ function fnMostrarHoraAtual() {
 }
 
 function fnTrocarTitulo(){
-    document.getElementById("nome-empresa").innerText=prompt("Digite seu novo titulo")
+    document.getElementById("nome-empresa").innerText=prompt("Digite seu novo titulo: ")
+}
+
+function fnIdiomaPtBr(){
+    document.getElementById("menu1").innerText="Inicio"
+    document.getElementById("menu2").innerText="Serviços"
+    document.getElementById("menu3").innerText="Contato"
+}
+
+function fnIdiomaIngles(){
+    document.getElementById("menu1").innerText="Home"
+    document.getElementById("menu2").innerText="Services"
+    document.getElementById("menu3").innerText="Contact"
+}
+
+function fnIdiomaFrances(){
+    document.getElementById("menu1").innerText="Accueil"
+    document.getElementById("menu2").innerText="Services"
+    document.getElementById("menu3").innerText="Contact"
+}
+
+function fnIdiomaItaliano(){
+    document.getElementById("menu1").innerText="Casa"
+    document.getElementById("menu2").innerText="Servizi"
+    document.getElementById("menu3").innerText="Contatto"
 }
