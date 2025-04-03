@@ -28,7 +28,10 @@
         </nav>
     </header>
     <div class="banner">
-        <img src="imagens/banner.jpg" alt="Banner de Advocacia" class="imagem-banner">
+        <img src="imagens/banner.jpg" alt="Banner de Advocacia" class="imagem-banner" id="banner">
+        <button type="button" onclick="fnBanner1()"> 1 </button>
+        <button type="button" onclick="fnBanner2()"> 2 </button>
+        <button type="button" onclick="fnBanner3()"> 3 </button>
     </div>
     <div class="colora">
         <h2 class="titulo-servicos">Serviços</h2>
@@ -46,9 +49,9 @@
         </div>
     </div>
     <div class="imagens">
-        <img src="imagens/imagem1.jpg" alt="Imagem" class="imagens-pequenas">
-        <img src="imagens/imagem2.jpg" alt="Imagem" class="imagens-pequenas">
-        <img src="imagens/imagem3.jpg" alt="Imagem" class="imagens-pequenas">
+        <img src="imagens/destaque1.jpg" alt="Imagem" class="imagens-pequenas" id="destaque1" onmouseenter="fnDestaque1Trocar()" onmouseleave="fnDestaque1Original()">
+        <img src="imagens/destaque2.jpg" alt="Imagem" class="imagens-pequenas" id="destaque2" onmouseenter="fnDestaque2Trocar()" onmouseleave="fnDestaque2Original()">
+        <img src="imagens/destaque3.jpg" alt="Imagem" class="imagens-pequenas" id="destaque3" onmouseenter="fnDestaque3Trocar()" onmouseleave="fnDestaque3Original()">
     </div>
 
     <p class="texto-contato">Contato</p>

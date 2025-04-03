@@ -68,3 +68,40 @@ function fnIdiomaItaliano(){
     document.getElementById("menu2").innerText="Servizi"
     document.getElementById("menu3").innerText="Contatto"
 }
+
+function fnBanner1(){
+    document.getElementById("banner").src="imagens/banner.jpg"
+}
+
+function fnBanner2(){
+    document.getElementById("banner").src="imagens/banner02.jpg"
+}
+
+function fnBanner3(){
+    document.getElementById("banner").src="imagens/banner03.jpg"
+}
+
+function fnDestaque1Trocar(){
+    document.getElementById("destaque1").src="imagens/destaque1-1.jpg"
+}
+
+function fnDestaque1Original(){
+    document.getElementById("destaque1").src="imagens/destaque1.jpg"
+}
+
+
+function fnDestaque2Trocar(){
+    document.getElementById("destaque2").src="imagens/destaque2-1.jpg"
+}
+
+function fnDestaque2Original(){
+    document.getElementById("destaque2").src="imagens/destaque2.jpg"
+}
+
+function fnDestaque3Trocar(){
+    document.getElementById("destaque3").src="imagens/destaque3-1.jpg"
+}
+
+function fnDestaque3Original(){
+    document.getElementById("destaque3").src="imagens/destaque3.jpg"
+}
