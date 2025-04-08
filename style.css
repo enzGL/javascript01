@@ -171,7 +171,7 @@ body{
     border-radius: 5px;
     background-color: #3C3D37;
     width: 800px;
-    height: 600px;
+    height: 750px;
 }
 .formulario{
     display: flex;
@@ -191,6 +191,7 @@ body{
     border-radius: 5px;
     width: 400px;
     background-color: #181C14;
+    color: #f2c22d;
 }
 .campo-form::placeholder {
     color: #f2c22d;
@@ -212,6 +213,7 @@ body{
     width: 400px;
     height: 200px;
     background-color: #181C14;
+    color: #f2c22d;
 }
 .campo-form-mensagem::placeholder {
     color: #f2c22d;
@@ -234,4 +236,13 @@ body{
 .texto-rodape strong{
     font-weight: bold;
     color: #f2c22d;
+}
+.botao{
+    margin-top: 10px;
+    width: 90px;
+    height: 45px;
+    text-decoration: none;
+    background-color: #f2c22d;
+    border: none;
+    border-radius: 5px;
 }

@@ -105,3 +105,15 @@ function fnDestaque3Trocar(){
 function fnDestaque3Original(){
     document.getElementById("destaque3").src="imagens/destaque3.jpg"
 }
+
+function fnRegistrarContato(){
+    let nome = document.getElementById("nome").value
+    let email = document.getElementById("email").value
+    let mensagem = document.getElementById("mensagem").value
+    let informacoesCompleta = nome + " - "+ email + "<br>"+ mensagem
+    document.getElementById("informacoes").innerHTML = informacoesCompleta
+
+    document.getElementById("nome").value = ""
+    document.getElementById("email").value = ""
+    document.getElementById("mensagem").value = ""
+}

@@ -29,9 +29,9 @@
     </header>
     <div class="banner">
         <img src="imagens/banner.jpg" alt="Banner de Advocacia" class="imagem-banner" id="banner">
-        <button type="button" onclick="fnBanner1()"> 1 </button>
-        <button type="button" onclick="fnBanner2()"> 2 </button>
-        <button type="button" onclick="fnBanner3()"> 3 </button>
+        <button type="button" onclick="fnBanner1()" class="botao"> 1 </button>
+        <button type="button" onclick="fnBanner2()" class="botao"> 2 </button>
+        <button type="button" onclick="fnBanner3()" class="botao"> 3 </button>
     </div>
     <div class="colora">
         <h2 class="titulo-servicos">Serviços</h2>
@@ -57,19 +57,20 @@
     <p class="texto-contato">Contato</p>
 
     <div class="campo-formulario">
+
         <form class="formulario">
             <p class="titulo-form">Nome</p>
-            <input type="text" placeholder="Digite seu nome" class="campo-form">
-        </form>
-
-        <form class="formulario">
+            <input type="text" placeholder="Digite seu nome" id="nome" class="campo-form">
+       
             <p class="titulo-form">Email</p>
-            <input type="text" placeholder="Digite seu email" class="campo-form">
-        </form>
-
-        <form class="formulario">
+            <input type="text" placeholder="Digite seu email" id="email" class="campo-form">
+       
             <p class="titulo-form">Mensagem</p>
-            <input type="text" placeholder="Escreva uma mensagem" class="campo-form-mensagem">
+            <input type="text" placeholder="Escreva uma mensagem" id="mensagem" class="campo-form-mensagem">
+
+            <button type="button" class="botao" onclick="fnRegistrarContato()">Enviar</button>
+
+            <p id="informacoes"></p>
         </form>
     </div>
 
